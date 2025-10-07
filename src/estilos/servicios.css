@@ -1,0 +1,59 @@
+.servicios-container {
+  padding: 40px 20px;
+  min-height: calc(100vh - 80px);
+}
+
+.servicios-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.habitaciones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.habitacion-card {
+  border: 2px solid #553926;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.habitacion-imagen {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.habitacion-info {
+  padding: 15px;
+  background-color: #f8eadf;
+}
+
+.habitacion-info h3 {
+  margin: 0 0 10px 0;
+}
+
+.tipo {
+  color: #553926;
+  font-weight: bold;
+}
+
+.descripcion {
+  margin: 10px 0;
+}
+
+.detalles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 2px solid #553926;
+}
+
+.precio {
+  color: #C68B59;
+  font-weight: bold;
+}
