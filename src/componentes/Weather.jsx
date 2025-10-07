@@ -67,15 +67,13 @@ function Weather() {
   }
 
   return (
-    // agregaer titulo
-    <div>
-      <h3 className="weather-title">Clima en Salta Capital</h3>
-    
     <div className="weather-widget">
-      <img src={weather.icon} alt={weather.condition} className="weather-icon-img" />
-      <span className="weather-temp">{Math.round(weather.temperature)}°C</span>
-      <span className="weather-desc">{weather.condition}</span>
-    </div>
+      <h3 className="weather-title">Clima en Salta Capital</h3>
+      <div className="weather-content">
+        <img src={weather.icon} alt={weather.condition} className="weather-icon-img" />
+        <span className="weather-temp">{Math.round(weather.temperature)}°C</span>
+        <span className="weather-desc">{weather.condition}</span>
+      </div>
     </div>
   );
 }
