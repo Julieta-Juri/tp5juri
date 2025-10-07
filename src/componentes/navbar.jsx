@@ -10,8 +10,7 @@ function Navbar() {
         <Link to="/contacto" className="nav-link">Contacto</Link>
         <Link to="/upload" className="nav-link">Upload</Link>
         <Link to="/servicios" className="nav-link">Servicios</Link>
-        <Link to="/Weather" className="nav-link">API-Clima</Link>
-        
+        <Weather />
       </div>
     </nav>
   );
